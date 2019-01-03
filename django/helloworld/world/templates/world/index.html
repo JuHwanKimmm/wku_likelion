@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>민기님...</title>
+  </head>
+  <body>as
+    <h1>재성함미다...</h1>
+    <ul>
+    {{ post }} 
+    {% for item in post %}
+        <br>
+        <li>제목:{{ item.title }} </li>
+        <li>내용:{{item.content}}</li>
+        <li>작성자:{{item.user}}</li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>
